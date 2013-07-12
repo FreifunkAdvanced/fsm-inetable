@@ -8,8 +8,8 @@ get_iface () {
 	echo $iface
 }
 
-TestHosts="4.2.2.4 8.8.8.8"
-PingTrials=2
+TestHosts="8.8.8.8 78.47.165.13 144.76.72.180 5.9.112.157 78.24.191.177"
+PingTrials=20
 IFace=$(get_iface wan)
 
 iftest () {
